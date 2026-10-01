@@ -13,13 +13,18 @@ def analyze_numbers(number: int) -> str:
     else:
         result += f" {number} is an odd number."
 
-    if number > 1:  
+    if number > 1:
+        is_prime = True
         for i in range(2, number):
             if number % i == 0:
-                result += f" {number} is not a prime number."
+                is_prime = False
                 break
+        if is_prime:
+            result += f" {number} is an prime number."
         else:
-            result += f" {number} is a prime number."
+            result += f" {number} is an not a prime number."
+    else:
+        result += f" {number} is an not a prime number."
     return result
 
 print(analyze_numbers(6))
