@@ -1,2 +1,4 @@
-# super30-python-loops-functions-task
-Few examples of loops and function in Python
+Super 30 Python Loops and Functions Assignment
+Name - Mrunalini Gudi
+Super30 batch - September 2026
+Assignment Description - 
