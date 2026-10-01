@@ -14,7 +14,7 @@ for mark in marks:
         lowest_marks = mark
 
     # Calculate total
-    total = sum(marks)
+    total += mark
 
     # Count pass and fail
     if mark >= 40:
